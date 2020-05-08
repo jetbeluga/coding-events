@@ -1,8 +1,10 @@
 <template>
   <div>
-    <h1>something</h1>
     <h1>Create an Event</h1>
-    <p>asdfasfds</p>
+    <form>
+      <input type="text" name="title" placeholder="Add a Title" />
+      <input type="submit" value="create" />
+    </form>
   </div>
 </template>
 
